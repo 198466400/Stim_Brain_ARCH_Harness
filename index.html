@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kota Mo - Stim_Brain_ARCH_Harness</title>
+    <style>
+        :root {
+            --primary-color: #001f3f;
+            --secondary-color: #0077b6;
+            --accent-color: #ff6b6b;
+            --light-color: #f8f9fa;
+            --dark-color: #001f3f;
+            --font-primary: 'Arial', sans-serif;
+            --font-secondary: 'Georgia', serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-primary);
+            line-height: 1.6;
+            color: var(--dark-color);
+            background-color: var(--light-color);
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-family: var(--font-secondary);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        section h2 {
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .brain-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .brain-card {
+            background: var(--light-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+            color: var(--dark-color);
+            display: block;
+        }
+
+        .brain-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .brain-card h3 {
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .brain-card p {
+            color: var(--dark-color);
+            margin-bottom: 1rem;
+        }
+
+        .brain-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: var(--primary-color);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: var(--primary-color);
+            color: white;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .brain-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Stim_Brain_ARCH_Harness</h1>
+        <p>Stimulated brain submergence in the folds of the electrical brain signals mapped in the hardening shell.</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>About Stim_Brain_ARCH_Harness</h2>
+            <p>
+                Stim_Brain_ARCH_Harness is a pioneering project focused on mapping and understanding the electrical signals of the brain 
+                within a structured and hardened architectural framework. This project explores the intricate connections between 
+                neural activity and computational models, providing a unique perspective on brain function and cognitive processes.
+            </p>
+            <p>
+                By integrating advanced signal processing techniques with architectural design principles, Stim_Brain_ARCH_Harness 
+                offers a comprehensive approach to studying the brain's electrical landscape. This project is ideal for researchers, 
+                neuroscientists, and anyone fascinated by the intersection of biology and technology.
+            </p>
+        </section>
+
+        <section>
+            <h2>Explore More</h2>
+            <div class="brain-grid">
+                <a href="https://github.com/198466400/Adhdakota.pro" class="brain-card">
+                    <h3>Adhdakota.pro</h3>
+                    <p>Fully Customizable Operating Systems</p>
+                    <div class="brain-meta">
+                        <span>HTML</span>
+                        <span>Public</span>
+                    </div>
+                </a>
+                <a href="https://github.com/198466400/DiamondPlat3" class="brain-card">
+                    <h3>DiamondPlat3</h3>
+                    <p>INT Forge Studio - Cognitive Transformation Engine</p>
+                    <div class="brain-meta">
+                        <span>HTML</span>
+                        <span>Public</span>
+                    </div>
+                </a>
+                <a href="https://github.com/198466400/portfolio" class="brain-card">
+                    <h3>Portfolio</h3>
+                    <p>Public portfolio showcasing skills and projects</p>
+                    <div class="brain-meta">
+                        <span>HTML</span>
+                        <span>Public</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Kota Mo. All rights reserved.</p>
+        <p>
+            <a href="https://github.com/198466400">GitHub Profile</a> |
+            <a href="https://www.linkedin.com/in/19866400dcreator">LinkedIn</a>
+        </p>
+    </footer>
+</body>
+</html>
